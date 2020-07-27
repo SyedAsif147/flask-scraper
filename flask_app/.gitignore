@@ -1,0 +1,11 @@
+# cache files
+__pycache__
+
+#.pyc files
+*.pyc
+
+# code testing snippets
+test.py
+
+# Dataset directories
+selection_data

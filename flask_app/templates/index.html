@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block new_content %}
+<div class="container">
+<div id="content">
+<form method="POST">
+  <h1>To generate scrap data</h1><br>
+  <h3>Click the button below.</h3>
+  <br>
+  <div class="container row">
+    <input class="btn btn-outline-success" type="submit" value="Generate Data" onclick="loading()"></input>
+  </div>
+</form>
+</div>
+</div>
+{% endblock %}
+

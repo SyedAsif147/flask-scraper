@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block new_content %}
+
+<h1> Data Generation Complete </h1>
+<br>
+<h3>Menu Data:</h3>
+<p>
+    {% if menu %}
+        {% for menu_data in menu %}
+            {{ menu_data }}
+        {% endfor %}
+    {% endif %}
+</p>
+<br>
+<h3>Review Data:</h3>
+<p>
+    {% if review %}
+        {% for review_data in review %}
+            {{ review_data }}
+        {% endfor %}
+    {% endif %}
+</p>
+
+{% endblock %}
